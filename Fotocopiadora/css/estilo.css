@@ -1,0 +1,88 @@
+/*-------------------GENERAL------------------------*/
+.imgFondo{
+   width: 100%;
+   
+}
+body{
+    margin: 0;
+}
+.logoNav{
+    width: 5rem;
+    padding-left: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-style: initial;
+}
+
+p{
+    text-align: center;
+    font-size: 1.3rem;  
+}
+
+.background{
+    padding: 20px;
+    background-color: #A1CEBD;
+}
+h2{
+    margin: 0;
+}
+.mapas{
+    left: 20%;
+}
+.separacion{
+    margin-top: 100px;
+}
+
+.cardFlotante{
+position: absolute;
+left: 17%;
+top: 55rem;
+/*transform: translateX (-50%); */
+width: 1000px;
+height: 150px;
+background:#1E1E1E;
+border-radius: 15px;
+box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+}
+/*-------------------DESKTOP-------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+
+.navbar{
+    height: 5rem;
+}
+
+.navEstilo{
+    margin-inline-end: 2rem;
+    flex: content;
+    justify-content: flex-end;
+}
+
+}
+ 
+@media screen and (min-width: 1280px){
+    h2{
+        position: absolute;
+        width: 22.438rem;
+        height: 4.125rem;
+        left: 57.875rem;
+        top: 30.125rem;
+        }
+}
+/* --------------------MOBILE-------------------- */
+@media screen and (max-width: 768px){
+
+h2{
+    margin: 0;
+    position: absolute;
+    margin: 0;
+    top: 25%;
+    right: 10%;
+}
+}
+
+
+
