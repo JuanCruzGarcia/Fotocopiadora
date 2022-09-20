@@ -1,55 +1,100 @@
 /*-------------------GENERAL------------------------*/
-.imgFondo{
-   width: 100%;
-   
-}
 body{
     margin: 0;
 }
-.logoNav{
-    width: 5rem;
-    padding-left: 2rem;
-}
+/*Textos*/
 
 h1{
+    font-family: 'Josefin', sans-serif;
     font-size: 3rem;
     text-align: center;
+    font-weight:500;
     font-style: initial;
 }
 
 p{
+    font-family: 'Josefin', sans-serif;
     text-align: center;
-    font-size: 1.3rem;  
+    font-size: 1.3rem; 
+    font-weight: 300; 
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+a{
+   font-family: 'Josefin' ,sans-serif; 
+   font-size: 0.9rem;
+   font-weight:600;
+}
+
+/*Secciones*/
+
+.imgPresentacion{ 
+   width: 100%;
+   
+}
+
+.logoNav{
+    width: 5rem;
+    padding-left: 2rem;
 }
 
 .background{
     padding: 20px;
     background-color: #A1CEBD;
 }
-h2{
-    margin: 0;
-}
-.mapas{
-    left: 20%;
-}
+
 .separacion{
-    margin-top: 100px;
+    padding: 5%;
 }
 
 .cardFlotante{
-position: absolute;
-left: 17%;
-top: 55rem;
-/*transform: translateX (-50%); */
-width: 1000px;
-height: 150px;
+position: relative;
+margin-left: 4rem;
+margin-right: 4rem;
+margin-top: -6rem;
 background:#1E1E1E;
 border-radius: 15px;
 box-shadow: 0 15px 50px rgba(0,0,0,0.35);
 }
+
+.cardFlotante p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.backgroundContacto{
+    background: linear-gradient(0deg, rgba(161, 206, 189, 0.74), rgba(161, 206, 189, 0.74)), url('../asset/backcontacto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+iframe{
+    border-radius: 20px;
+    border:none;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 30px 2px rgba(161, 206, 189, 0.7);
+    -moz-box-shadow: 0px 0px 30px 2px rgba(161, 206, 189, 0.7);
+    box-shadow: 0px 0px 30px 2px rgba(161, 206, 189, 0.7);
+}
+
+.footer{
+    background-color: #1E1E1E;
+    height: 40vh;
+    
+}
+
 /*-------------------DESKTOP-------------------*/
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
+@media screen and (min-width: 768px){
 
 .navbar{
     height: 5rem;
@@ -64,24 +109,16 @@ box-shadow: 0 15px 50px rgba(0,0,0,0.35);
 }
  
 @media screen and (min-width: 1280px){
-    h2{
-        position: absolute;
-        width: 22.438rem;
-        height: 4.125rem;
-        left: 57.875rem;
-        top: 30.125rem;
-        }
+   
 }
+
+
+
+
 /* --------------------MOBILE-------------------- */
 @media screen and (max-width: 768px){
 
-h2{
-    margin: 0;
-    position: absolute;
-    margin: 0;
-    top: 25%;
-    right: 10%;
-}
+
 }
 
 
